@@ -22,42 +22,6 @@ Help others find this project:
 
 Ready-to-use messages for sharing:
 
-**Twitter/X**
-```
-💝 Create your own Valentine's website for free! No coding required!
-🎁 Fully customizable, easy to deploy with your own website name
-✨ Try it now: https://github.com/End2EndAI/valentine-website-2025
-#ValentinesDay2025 #WebDev #GitHub #Love
-```
-
-**Instagram/Facebook**
-```
-💝 Make Valentine's Day 2025 unforgettable!
-Create your own interactive Valentine's website in minutes - completely FREE!
-✨ No coding required
-🎨 Fully customizable
-🌐 Get your own website link
-
-Try it now: https://github.com/End2EndAI/valentine-website-2025
-#ValentinesDay2025 #Love #WebDev #CodingWithLove
-```
-
-**Reddit (r/webdev, r/coding)**
-```
-[Project] 💝 Valentine's Website Generator - Free & Open Source
-
-I created a free, open-source Valentine's website generator that lets anyone create their own interactive Valentine's proposal website. No coding required!
-
-- 🎨 Fully customizable
-- 💝 Interactive elements
-- 🚀 Easy deployment
-- 📱 Mobile-friendly
-- 💯 Free forever
-
-Demo: https://end2endai.github.io/valentine-website-2025
-GitHub: https://github.com/End2EndAI/valentine-website-2025
-```
-
 ## ✨ Features
 - 💖 Floating hearts and bears
 - 🎯 Interactive questions
@@ -86,12 +50,12 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
-pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
+valentineName: "Nirj"                    // Your Valentine's name
+pageTitle: "Will You Be My Valentine? 🤍" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    hearts: ['🤍', '💖', '💝', '💗', '💓'],  // Heart emojis in background
     bears: ['🧸', '🐻']                       // Bear emojis in background
 }
 
@@ -101,15 +65,15 @@ questions: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "I don't like you, I'm in love with you! 🤍"  // Hidden message
     },
     second: {
-        text: "How much do you love me?",          // Second question
+        text: "How much do you like me?",          // Second question
         startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+        nextBtn: "Next 🤍"                         // Next button text
     },
     third: {
-        text: "Will you be my Valentine...?",      // Final question
+        text: "Will you be my beautiful Valentine...?",      // Final question
         yesBtn: "Yes!",                            // Yes button text
         noBtn: "No"                                // No button text
     }
@@ -117,14 +81,14 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
+    extreme: "WOOAAA You love me that much?! 🤍",  // Shows above 5000%
+    high: "To infinity and beyond! ",              // Shows above 1000%
     normal: "And beyond! 🥰"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
-    title: "Yay! I'm the luckiest person...",     // Celebration title
+    title: "AYEEEE! I'm the luckiest guy...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
     emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
 }
